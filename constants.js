@@ -1,6 +1,6 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Khairul Umam",
+  title: "Portofolio | Khairul Umam",
   description:
     "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
@@ -44,32 +44,24 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
+  "I'm Sofware engineer",
+  "I build things for the apps",
   "I create aesthetic and modern apps",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: khairulumam950@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/khairul-umam-a55594249/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://twitter.com/shubh731",
-  },
+    url: "https://github.com/Umam1210",
+  }
 ];
 
 export const SKILLS = {
@@ -78,13 +70,13 @@ export const SKILLS = {
     "css",
     "javascript",
     "typescript",
-    "sass",
     "nodejs",
-    "webpack",
     "vite",
     "firebase",
     "figma",
-    "tanstack-query",
+    "rust",
+    "Golang",
+    "php",
   ],
   librariesAndFrameworks: [
     "react",
@@ -93,96 +85,80 @@ export const SKILLS = {
     "tailwindcss",
     "styledcomponents",
     "antdesign",
-    "chakra-ui",
+    "laravel",
+    "Bootstraps"
   ],
   databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  other: ["git",],
 };
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
+    name: "Bazi Calculator",
     image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    description: "Bazi is a Chinese astrological method that analyzes a person's fate based on their date and time of birth.",
+    gradient: ["#2E86C1", "#CACFD2"],
+    url: "https://chillcalendar.com/",
+    tech: ["react", "laravel", "tailwindcss", "typescript"],
   },
   {
-    name: "Medium",
+    name: "Auxonode",
     image: "/projects/medium.webp",
     blurImage: "/projects/blur/medium-blur.webp",
     description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    tech: ["javascript", "laravel", "php", "tailwindcss"],
   },
   {
-    name: "Inshorts",
+    name: "Chat bot katherine",
     image: "/projects/inshorts.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
       "Conversational Voice Controlled React News Application using Alan AI 🎙",
     gradient: ["#000066", "#6699FF"],
     url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    tech: ["svelte", "typescript", "python", 'docker'],
   },
   {
-    name: "Tesla",
+    name: "Armed Chat",
     image: "/projects/tesla.webp",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    tech: ["html", "tailwindcss"],
   },
+  {
+    name: "Security Operation Center",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Tesla React Native App 🏎️",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://github.com/shubh73/tesla",
+    tech: ["react", "javascript", "tailwindcss", "golang", "rust"],
+  },
+  {
+    name: "AI care Monitaring transaction",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Tesla React Native App 🏎️",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://github.com/shubh73/tesla",
+    tech: ["react", "tailwindcss", "typescript", "golang"],
+  },
+  {
+    name: "AI care Merchant App",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Tesla React Native App 🏎️",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://github.com/shubh73/tesla",
+    tech: ["react", "tailwindcss", "typescript", "golang"],
+  }
 ];
 
-// export const WORK = [
-//   {
-//     id: 1,
-//     company: "Dukaan",
-//     title: "Frontend Developer",
-//     location: "Bangalore, Karnataka",
-//     range: "December - Current",
-//     responsibilities: [
-//       "Led creation of a captivating cross-platform e-commerce solution.",
-//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
-//     ],
-//     url: "https://mydukaan.io/",
-//     video: "/work/dukaan.mp4",
-//   },
-//   {
-//     id: 2,
-//     company: "Aviate",
-//     title: "Frontend Developer Intern",
-//     location: "Goa",
-//     range: "May - October 2022",
-//     responsibilities: [
-//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-//     ],
-//     url: "https://www.aviate.jobs/",
-//     video: "/work/aviate.mp4",
-//   },
-//   {
-//     id: 3,
-//     company: "Spacenos",
-//     title: "Web Developer Intern",
-//     location: "Bangalore, Karnataka",
-//     range: "September - December 2021",
-//     responsibilities: [
-//       "Led the Full Stack revamp on the Admin Portal.",
-//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-//       "Implemented CRUD features for all the services and providers.",
-//     ],
-//     url: "https://spacenos.com/",
-//     video: "/work/spacenos.mp4",
-//   },
-// ];
 
 export const WORK_CONTENTS = {
   DUKAAN: [
