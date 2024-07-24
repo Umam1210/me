@@ -2,17 +2,17 @@ export const METADATA = {
   author: "Khairul Umam",
   title: "Portofolio | Khairul Umam",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Khairul Umam is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
   twitterHandle: "@shubh731",
   keywords: [
-    "Shubh Porwal",
+    "Khairul Umam",
     "Frontend Engineer",
-    "React Native Developer",
+    "Backend Developer",
     "Software Engineer",
     "Portfolio",
     "Devfolio",
-    "Folio",
+    "Khairul Umam Portfolio",
   ].join(", "),
   image:
     "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
@@ -75,7 +75,7 @@ export const SKILLS = {
     "firebase",
     "figma",
     "rust",
-    "Golang",
+    "golang",
     "php",
   ],
   librariesAndFrameworks: [

@@ -39,7 +39,7 @@ html {
 
 body {
   box-sizing: border-box;
-  @apply bg-black text-white overflow-x-hidden;
+  @apply bg-[#1D2951] text-white overflow-x-hidden;
 }
 
 ::-webkit-scrollbar {
@@ -253,10 +253,7 @@ input[type="checkbox"] {
         0,
         0,
         0.8
-      ); //check it out later when more text is on the background to change the opacity
-      // @supports not (backdrop-filter: blur(0.625rem)) {
-      //   background: rgba(0, 0, 0, 0.8);
-      // }
+      ); 
 
       > div {
         max-width: 90vw;
@@ -295,7 +292,7 @@ input[type="checkbox"] {
     transform-origin: left;
     will-change: transform;
     transform: scaleX(0);
-    @apply w-full bg-white;
+    @apply w-full bg-gradient-to-r from-red via-green to-white;
   }
 }
 
