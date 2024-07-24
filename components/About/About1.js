@@ -53,7 +53,7 @@ const About1 = ({ clientHeight }) => {
       >
         <h1
           ref={quoteRef}
-          className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
+          className="font-medium text-[2.70rem] md:text-6xl lg:text-[3rem] text-center"
         >
           <span className="about-1 leading-tight">
             I am a software engineer with extensive experience in designing and developing innovative technology solutions. My expertise lies in creating efficient and high-performance applications. 

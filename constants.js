@@ -83,12 +83,14 @@ export const SKILLS = {
     "redux",
     "nextjs",
     "tailwindcss",
-    "styledcomponents",
     "antdesign",
     "laravel",
-    "Bootstraps"
+    "bootstrap",
+    "svelte",
+    "vue",
+    "astro"
   ],
-  databases: ["mysql", "mongodb"],
+  databases: ["mysql", "mongodb", "postgresql"],
   other: ["git",],
 };
 
