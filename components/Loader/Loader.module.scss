@@ -1,5 +1,5 @@
 .screen {
-  background: black;
+  background: rgb(29, 41, 81);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -17,7 +17,7 @@
   > span {
     height: 5px;
     width: 35px;
-    background: linear-gradient(to right, #7000ff, #8b31ff);
+    background: linear-gradient(to right, #d8080f, #c2bcca);
     position: absolute;
     top: -19px;
     left: 60px;
@@ -31,7 +31,7 @@
 .loader > span > span:nth-child(4) {
   width: 30px;
   height: 1px;
-  background: linear-gradient(to right, #7000ff, #8b31ff);
+  background: linear-gradient(to right, #c2bcca, #d8080f);
   position: absolute;
   animation: fazer1 0.2s linear infinite;
 }
