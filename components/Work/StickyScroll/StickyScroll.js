@@ -32,7 +32,7 @@ const StickyScroll = ({ contentItems }) => {
     setActiveCard(closestBreakpointIndex);
   });
 
-  const backgroundColors = ["#000000"];
+  const backgroundColors = ["#0e152d"];
   const linearGradients = [
     "linear-gradient(to bottom right, #ef008f, #6ec3f4)",
     "linear-gradient(to bottom right, #6ec3f4, #7038ff)",
