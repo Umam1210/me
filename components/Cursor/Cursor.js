@@ -73,7 +73,7 @@ const Cursor = ({ isDesktop }) => {
       />
       <div
         ref={follower}
-        className="bg-white/[0.02] border border-white/[0.2] rounded-full fixed -top-3 -left-3 w-10 h-10 select-none pointer-events-none z-50 hidden"
+        className="bg-white/[0.02] border border-white/[0.9] rounded-full fixed -top-3 -left-3 w-10 h-10 select-none pointer-events-none z-50 hidden"
       />
     </>
   );
