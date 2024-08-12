@@ -50,8 +50,7 @@ export default function Home() {
   return (
     <>
       {isLoading ? (
-        ''
-        // <Loader />
+        <Loader />
       ) : (
         <>
           <Header>
