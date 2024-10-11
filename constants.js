@@ -162,6 +162,15 @@ export const PROJECTS = [
     gradient: ["#142D46", "#2E4964"],
     url: "in developing",
     tech: ["react", "tailwindcss", "typescript", "golang"],
+  },
+    {
+    name: "WWF Gis",
+    image: "/projects/wwf.png",
+    blurImage: "/projects/wwf.png",
+    description: "is a web-based platform used by WWF to support environmental conservation through interactive GIS maps.",
+    gradient: ["#142D46", "#2E4964"],
+    url: "in developing",
+    tech: ["nextjs", "tailwindcss", "typescript", "laravel"],
   }
 ];
 
